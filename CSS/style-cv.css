@@ -1,0 +1,54 @@
+h2
+{
+	text-decoration: none;
+	border-bottom: solid 2px;
+	color: #1b81ff;
+}
+
+td
+{
+	padding: 3px;
+	vertical-align: top;
+	font-size: 20px;
+}
+
+td:last-child
+{
+    width:60%
+}
+
+.bouton-imp
+{
+	text-align: center;
+	padding:6px;
+	width: 70px;
+	border: 1px solid #CCC;
+    border-radius: 1em;
+    background: #ddd;
+    top: 400px;
+    right: 50%;
+}
+
+.bouton-imp:hover
+{
+	background: #ccc;
+}
+
+.bouton-dl
+{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding:6px;
+	width: 70px;
+	border: 1px solid #CCC;
+    border-radius: 1em;
+    background: #ddd;
+    top: 400px;
+    right: 50%;
+}
+
+.bouton-dl:hover
+{
+	background: #ccc;
+}

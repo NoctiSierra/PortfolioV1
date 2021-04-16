@@ -1,0 +1,169 @@
+/*_____________________________________barre de naviguation_______________________________*/
+
+.fondmenu
+{
+	position: fixed;
+	height: 50px;
+	width : 100%;
+	background: linear-gradient(#7cb7ff, #1b81ff);
+	border-radius : 0px 0px 4px 4px;
+	box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.2),
+			0px 1px 0px 1px rgba(255,255,255,0.5) inset,
+			0px -3px 0px 1px rgba(0,0,0,0.1) inset;
+}
+
+.menu
+{
+	margin-right: auto;
+	margin-left: auto;
+	display: table;
+	padding: 0;
+	margin-top: 0;
+}
+
+.menu li
+{
+	display: table-cell;
+	width: 180px;
+	transition: 1s;
+}
+.menu li:hover
+{
+	width: 190px;
+	transition: 1s;
+}
+.menu-item
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+	transition: text-shadow, color 1s;
+}
+.menu-item:hover
+{
+	color: black;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	background: rgba(255,255,255,0.1);
+	transition: 1s;
+	border-bottom: 4px solid rgba(255,255,255,0.8);
+}
+
+.menu-item-actif
+{
+	color: #ffffff;
+	background: rgba(0, 0, 0, 0.1);
+	text-decoration: none;
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+	transition: text-shadow, color, 1s;
+}
+.menu-item-actif:hover
+{
+	color: black;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	background: rgba(255,255,255,0.1);
+	transition: 1s;
+	border-bottom: 4px solid rgba(255,255,255,0.8);
+}
+/*_______________________________barre de naviguation____________________________*/
+
+body
+{
+	background-image: url("../img/fond.png");
+	background-attachment: fixed;
+	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+
+}
+
+.main
+{
+	background-color: #b2a8aeb7;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-top: 50px;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-right: 1px solid #B2CCCCCC;
+	border-left: 1px solid #B2CCCCCC;
+}
+
+.main h1 
+{
+	padding:6px;
+	padding-left: 2%;
+	background: #c8cbd1;
+	border-radius : 4px 4px 4px 4px;
+}
+
+footer
+{
+	padding-top: 500px;
+	text-align:center;
+	padding-bottom: 50px;
+}
+
+.contact-mail
+{
+	display: inline-block;
+	text-align: center;
+	padding:6px;
+	width: 70px;
+	border: 1px solid #CCC;
+    border-radius: 1em;
+    background: #ddd;
+    position: fixed;
+    top: 300px;
+    right: 5%;
+}
+
+.contact-mail:hover
+{
+	background: #ccc;
+}
+
+.haut-page
+{
+	display: inline-block;
+	text-align: center;
+	padding:6px;
+	width: 70px;
+	border: 1px solid #CCC;
+    border-radius: 1em;
+    background: #ddd;
+    position: fixed;
+    top: 400px;
+    right: 5%;
+}
+
+.haut-page:hover
+{
+	background: #ccc;
+}
+
+p 
+{
+	font-size: 20px;
+}
+
+.Mention_legal
+{
+	text-align: center;
+}
+
+.text
+{
+	padding-top: 5px;
+	padding-bottom: 45px;
+}
